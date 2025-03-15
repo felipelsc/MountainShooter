@@ -20,8 +20,8 @@ class Menu:
         pygame.mixer_music.play(-1)
         while True:
             self.window.blit(source=self.surf, dest=self.rect)
-            self.menu_text(text_size=50, text="Mountain", text_color=(255, 128, 0), text_center_pos=((WIN_WIDTH / 2), 70))
-            self.menu_text(text_size=50, text="Shooter", text_color=(255, 128, 0), text_center_pos=((WIN_WIDTH / 2), 120))
+            self.menu_text(text_size=50, text="Mountain", text_color=(255, 255, 255), text_center_pos=((WIN_WIDTH / 2), 70))
+            self.menu_text(text_size=50, text="Shooter", text_color=(255, 255, 255), text_center_pos=((WIN_WIDTH / 2), 120))
 
             self.menu_text(text_size=20, text="NEW GAME 1P", text_color=(255, 255, 255), text_center_pos=((WIN_WIDTH / 2), 200))
             self.menu_text(text_size=20, text="NEW GAME 2P - COOPERATIVE", text_color=(255, 255, 255), text_center_pos=((WIN_WIDTH / 2), 225))
