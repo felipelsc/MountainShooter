@@ -2,10 +2,10 @@
 # -*- coding: utf-8 -*-
 import random
 
-from MountainShooter.code.Background import Background
-from MountainShooter.code.Const import WIN_WIDTH, WIN_HEIGHT
-from MountainShooter.code.Enemy import Enemy
-from MountainShooter.code.Player import Player
+from code.Background import Background
+from code.Const import WIN_WIDTH, WIN_HEIGHT
+from code.Enemy import Enemy
+from code.Player import Player
 
 
 class EntityFactory:

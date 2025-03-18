@@ -2,9 +2,9 @@
 # -*- coding: utf-8 -*-
 import pygame.key
 
-from MountainShooter.code.Const import ENTITY_SPEED, WIN_HEIGHT, WIN_WIDTH, PLAYER_KEY_UP, PLAYER_KEY_DOWN, \
+from code.Const import ENTITY_SPEED, WIN_HEIGHT, WIN_WIDTH, PLAYER_KEY_UP, PLAYER_KEY_DOWN, \
     PLAYER_KEY_LEFT, PLAYER_KEY_RIGHT
-from MountainShooter.code.Entity import Entity
+from code.Entity import Entity
 
 
 class Player(Entity):

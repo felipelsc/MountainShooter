@@ -5,8 +5,8 @@ import pygame
 from code.Const import WIN_WIDTH, WIN_HEIGHT
 from code.Menu import Menu
 
-from MountainShooter.code.Const import MENU_OPTION
-from MountainShooter.code.Level import Level
+from code.Const import MENU_OPTION
+from code.Level import Level
 
 
 class Game:
